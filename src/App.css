@@ -1,0 +1,136 @@
+#root {
+
+  margin: 0 auto;
+  padding: 0;
+  /* primary background */
+  --primary: #F4F9E9;
+  /* headers, footers, and important buttons */
+  --secondary: #153243;
+  /* cards, content blocks */
+  --tertiary: #EEF0EB; 
+  /* headings, subheadings, and labels to create hierarchy in your typography. */
+  --secondary-headings: #284B63;
+
+}
+
+
+.whole-page {
+  background-color:var(--primary);
+  min-height: 100vh;
+  height: auto;
+  color:var(--secondary)
+}
+
+/* .create-posts {
+  background-color:;
+} */
+.secondary-header {
+  color: var(--secondary-headings)
+}
+
+.viewfullpost {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.post-viewing {
+  width: 50em;
+}
+.ordering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: auto;
+}
+.centered-text {
+  text-align: center;
+}
+.delete-button {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25em;
+
+}
+.center-page {
+  margin:auto;
+
+}
+.homepage {
+  margin: auto;
+  height: 100vh;
+  margin-top: 12em;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:auto;
+  
+}
+
+.primary-button {
+  width: 12em;
+  height: 3em;
+  margin-right: 1em;
+  border: none;
+  background-color:#284B63;
+  
+  color:var(--primary);
+  font-size: large;
+  border-radius: 1em;
+}
+.primary-button:hover {
+  background-color: var(--secondary);
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:auto;
+}
+.action-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly ;
+  background-color: var(--tertiary);
+  height: 20em;
+  width: 20em;
+  margin-top: 7em;
+
+}
+.textarea {
+  width: 10em;
+  height: 12em;
+}
+.create-post-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-button {
+  width: 12em;
+  height: 3em;
+  border: none;
+  background-color:#284B63;
+  color:var(--primary);
+  font-size: large;
+  border-radius: 1em;
+}
+.create-button:hover {
+  background-color: var(--secondary);
+  
+}
+
